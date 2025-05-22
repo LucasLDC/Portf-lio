@@ -1,0 +1,56 @@
+/* Basic styles for MainContent */
+main {
+  padding: 20px;
+  min-height: calc(100vh - 180px); /* Adjust based on Header/Footer height */
+  text-align: center;
+}
+
+.welcome-section {
+  margin-bottom: 30px;
+}
+
+.welcome-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.welcome-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  color: #555;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.specials-section {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.specials-section h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.specials-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.specials-section ul li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #555;
+}
